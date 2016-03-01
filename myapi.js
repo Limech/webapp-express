@@ -30,7 +30,7 @@ var customers = [ { first: 'Tom', last: 'Bosley'},
 // configure Express to serve index.html and any other static pages stored 
 // in the home directory
 //
-   app.use(express.static('/'));
+   app.use(express.static('public'));
 // ------------------------------------------------------------------------
 // set up Express routes - middleware to handle incoming requests
 //
